@@ -5,7 +5,9 @@ import urllib
 def antihtml(url):
 	response = urllib.urlopen(url)
 	content = response.read()
-	
+	tags = re.compile(r'<[^>]+>')
+	cleantext = re.sub(tags, '', content)
+	print cleantext		
 
 if len(sys.argv) < 2:
 	print 'usage python problem6.py url'
