@@ -1,3 +1,8 @@
+""" Write a program to count number of files for each extension in the given directory.
+    The program should take a directory name as argument and print count and extension
+    for each available file extension.
+"""
+
 import sys
 from os import listdir
 from os.path import isfile, join

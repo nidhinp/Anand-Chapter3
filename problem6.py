@@ -1,3 +1,7 @@
+""" Write a program that takes a URL as argument, downloads the html from web
+    and print it after striping html tags.
+"""
+
 import sys
 import re
 import urllib

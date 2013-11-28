@@ -1,3 +1,8 @@
+""" Write a program to download a given URL. The program should accept a URL argument,
+    download it and save it with the basename of the URL. If the URL ends with a /,
+    consider the basename as index.html.
+"""
+
 import sys
 import urllib
 

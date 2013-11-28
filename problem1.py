@@ -1,3 +1,6 @@
+""" Write a program to list all files in the given directory.
+"""
+
 from os import listdir
 from os.path import isfile, join
 import sys

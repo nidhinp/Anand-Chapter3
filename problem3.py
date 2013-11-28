@@ -1,3 +1,9 @@
+""" Write a program to list all files in the given directory along with their
+    length and last modification time. The output should contain one line for
+    each file containing filename, length, and modification date separated by 
+    tabs.
+"""
+
 import sys
 import datetime
 from os import listdir
